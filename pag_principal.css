@@ -1,0 +1,151 @@
+body{
+    background-image: url(imgs/tela.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    min-height: 100vh;
+
+}
+
+.cabeçario {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(78, 139, 196);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.titulo1{
+
+  font-family: "Fixedsys", "Courier New", monospace;
+    
+    position: relative;
+    left: 45%;
+    top: 100px;
+}
+
+.bloco1{
+
+  margin: 300px 100px 100px 100px;
+  min-height: 100vh;
+  background-color: rgba(216, 232, 250, 0.5);
+  border-radius: 10px;
+  border: 2px solid black;
+
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  grid-template-columns: repeat(4, 1fr);
+
+
+}
+
+.bloquinhos1{
+    height: 200px;
+  background-color: rgb(225, 229, 250);
+  border-radius: 8px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloquinhos1 img{
+  width: 120px;
+}
+
+h2{
+  text-align: center;
+}
+
+.bloquinhos2{
+    height: 200px;
+  background-color: rgb(225, 229, 250);
+  border-radius: 8px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bloquinhos3{
+    height: 200px;
+  background-color: rgb(225, 229, 250);
+  border-radius: 8px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bloquinhos4{
+    height: 200px;
+  background-color: rgb(225, 229, 250);
+  border-radius: 8px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bloquinhos5{
+    height: 200px;
+  background-color: rgb(225, 229, 250);
+  border-radius: 8px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bloquinhos6{
+    height: 200px;
+  background-color: rgb(225, 229, 250);
+  border-radius: 8px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+
+.titulo2{
+
+  font-family: "Fixedsys", "Courier New", monospace;
+    
+    position: relative;
+    left: 45%;
+    top: 10px;
+}
+
+.bloco2{
+
+  margin: 100px 100px 20px 100px;
+  min-height: 100vh;
+  background-color: rgba(216, 232, 250, 0.5);
+  border-radius: 10px;
+  border: 2px solid black;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+}
+
+
+
+
+
+
+
